@@ -35,7 +35,7 @@ node ('ubuntu-app-agent'){
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-       app = docker.build("madsaint/docker")
+       app = docker.build("madsaint/docker:red")
     }
 
   /*  
