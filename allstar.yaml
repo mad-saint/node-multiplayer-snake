@@ -16,7 +16,7 @@ policies:
     protectionSettings:
       required_status_checks:
         strict: true  # Require status checks to pass before merging.
-        contexts: []  # List of status checks to require.
+        contexts: []  # List of status checks to require.git add .
       enforce_admins: true  # Apply rules to administrators.
       required_pull_request_reviews:
         dismiss_stale_reviews: true  # Automatically dismiss stale pull request approvals.
@@ -26,7 +26,7 @@ policies:
         users: []  # Users with push access.
         teams: []  # Teams with push access.
 
-
+#ripon MB
   # Security policy ensures that a security policy file is present in the repository.
   SecurityPolicy:
     optConfig:
