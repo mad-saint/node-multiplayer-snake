@@ -19,6 +19,7 @@ app.get('/', (request, response) => {
 });
 
 // Create the main controller
+//Validation Check 
 const gameController = new GameController();
 gameController.listen(io);
 
